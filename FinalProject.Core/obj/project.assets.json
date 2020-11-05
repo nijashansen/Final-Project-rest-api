@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\FinalProject.Core.csproj",
+      "projectUniqueName": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\FinalProject.Core.csproj",
       "projectName": "FinalProject.Core",
-      "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\FinalProject.Core.csproj",
+      "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\FinalProject.Core.csproj",
       "packagesPath": "C:\\Users\\Nijas Hansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\obj\\",
+      "outputPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nijas Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj": {
-              "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj"
+            "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj": {
+              "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj"
             }
           }
         }

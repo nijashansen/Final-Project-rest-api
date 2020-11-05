@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj",
+      "projectUniqueName": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj",
       "projectName": "FinalProject.Core.Entity",
-      "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj",
+      "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj",
       "packagesPath": "C:\\Users\\Nijas Hansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\obj\\",
+      "outputPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nijas Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",

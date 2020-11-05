@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j3fnKrSl5zQCidSlvUXDQ7/FcIm4HtLzt/51tANeB/71bYVqs9QvwzvOYhwK/+C+hjlbG/UDUMRFlE4knqfQfQ==",
+  "dgSpecHash": "o7AzwAWTTQ8CEgZQnodHfnytfTL4RjD5nCToGHRf3T1GFmJJcc1TgTlHFF8/G7aAaC/g2yCkQLlLAc+qf0nBsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\FinalProject.Core.csproj",
+  "projectFilePath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\FinalProject.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Nijas Hansen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Repositories\ErrorRepository.cs~RF16c0237.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FinalProject.Core.Entity\FinalProject.Core.Entity.csproj" />
     <ProjectReference Include="..\FinalProject.Core\FinalProject.Core.csproj" />
   </ItemGroup>

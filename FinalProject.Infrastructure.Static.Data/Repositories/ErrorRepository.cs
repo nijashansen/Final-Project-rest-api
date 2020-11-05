@@ -8,29 +8,42 @@ namespace FinalProject.Infrastructure.Static.Data.Repositories
 {
     public class ErrorRepository : IErrorRepository
     {
-        private List<Error> _errors = new List<Error>();
-        static int id = 1;
-
         public ErrorRepository()
         {
+            if (FakeDB.Errors.Count >= 1) return;
 
+            var error1 = new Error()
+            {
+                Id = FakeDB.Id++,
+                ErrorDetail = "Failed",
+                ErrorType = "SystemError",
+            };
+            FakeDB.Errors.Add(error1);
+
+            var error2 = new Error()
+            {
+                Id = FakeDB.Id++,
+                ErrorType = "Failed",
+                ErrorDetail = "Buisness Exception",
+            };
+            FakeDB.Errors.Add(error2);
         }
 
         public Error Create(Error error)
         {
-            error.Id = id++;
-            _errors.Add(error);
+            error.Id = FakeDB.Id++;
+            FakeDB.Errors.Add(error);
             return error;
         }
 
         public IEnumerable<Error> ReadAll()
         {
-            return _errors;
+            return FakeDB.Errors;
         }
 
         public Error ReadById(int id)
         {
-            foreach (var item in _errors)
+            foreach (var item in FakeDB.Errors)
             {
                 if (item.Id == id)
                 {
@@ -57,7 +70,7 @@ namespace FinalProject.Infrastructure.Static.Data.Repositories
             var errorFound = this.ReadById(id);
             if (errorFound != null)
             {
-                _errors.Remove(errorFound);
+                FakeDB.Errors.Remove(errorFound);
                 return errorFound;
             }
             return null;
