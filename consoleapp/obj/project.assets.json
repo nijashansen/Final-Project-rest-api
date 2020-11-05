@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection/3.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "FinalProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FinalProject.Core.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject.Core.dll": {}
+        }
+      },
+      "FinalProject.Core.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/FinalProject.Core.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject.Core.Entity.dll": {}
+        }
+      },
+      "FinalProject.Infrastructure.Static.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FinalProject.Core": "1.0.0",
+          "FinalProject.Core.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProject.Infrastructure.Static.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject.Infrastructure.Static.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/3.1.9": {
+      "sha512": "ORqfrAACcvTInie1oGola5uky344/PiNfgayTPuZWV4WnSfIQZJQm/ZLpGshJE3h7TqwYaYElGazK/yaM2bFLA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.9": {
+      "sha512": "8PkcaPwiTPOhqshoY4+rQUbz86X6YpLDLUqXOezh7L2A3pgpBmeBBByYIffofBlvQxDdQ0zB2DkWjbZWyCxRWg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "FinalProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject.Core/FinalProject.Core.csproj",
+      "msbuildProject": "../FinalProject.Core/FinalProject.Core.csproj"
+    },
+    "FinalProject.Core.Entity/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject.Core.Entity/FinalProject.Core.Entity.csproj",
+      "msbuildProject": "../FinalProject.Core.Entity/FinalProject.Core.Entity.csproj"
+    },
+    "FinalProject.Infrastructure.Static.Data/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject.Infrastructure.Static.Data/FinalProject.Infrastructure.Static.Data.csproj",
+      "msbuildProject": "../FinalProject.Infrastructure.Static.Data/FinalProject.Infrastructure.Static.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FinalProject.Core >= 1.0.0",
+      "FinalProject.Core.Entity >= 1.0.0",
+      "FinalProject.Infrastructure.Static.Data >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nijas Hansen\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\consoleapp\\consoleapp.csproj",
+      "projectName": "consoleapp",
+      "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\consoleapp\\consoleapp.csproj",
+      "packagesPath": "C:\\Users\\Nijas Hansen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\consoleapp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Nijas Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj": {
+              "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj"
+            },
+            "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\FinalProject.Core.csproj": {
+              "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core\\FinalProject.Core.csproj"
+            },
+            "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj": {
+              "projectPath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

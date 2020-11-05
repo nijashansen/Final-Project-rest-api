@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/1vLSqhJ5zx2c7yqox4BgFSdYPz3ILwQUfgtQ/LcJD0pQJGWqMYo9P44Y2gy7ytQrBH3bzHpldUd76UTmVwBSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nijas Hansen\\source\\repos\\CleanArcitecture Final Project\\FinalProject.Core.Entity\\FinalProject.Core.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Nijas Hansen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
