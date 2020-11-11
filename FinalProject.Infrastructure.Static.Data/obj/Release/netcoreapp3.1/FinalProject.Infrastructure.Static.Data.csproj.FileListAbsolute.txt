@@ -1,0 +1,14 @@
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.deps.json
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Core.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Core.Entity.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Core.Entity.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\bin\Release\netcoreapp3.1\FinalProject.Core.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csprojAssemblyReference.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.AssemblyInfoInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.AssemblyInfo.cs
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csproj.CoreCompileInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csproj.CopyComplete
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Release\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.pdb

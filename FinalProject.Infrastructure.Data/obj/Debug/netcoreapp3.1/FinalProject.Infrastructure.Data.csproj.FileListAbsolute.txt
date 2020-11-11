@@ -1,0 +1,14 @@
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.deps.json
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.csprojAssemblyReference.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.AssemblyInfo.cs
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Core.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Core.Entity.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Core.Entity.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\bin\Debug\netcoreapp3.1\FinalProject.Core.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.csproj.CopyComplete
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Data.pdb

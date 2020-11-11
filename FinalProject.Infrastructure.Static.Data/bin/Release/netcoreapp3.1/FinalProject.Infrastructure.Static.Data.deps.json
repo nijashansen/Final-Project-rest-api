@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FinalProject.Infrastructure.Static.Data/1.0.0": {
+        "dependencies": {
+          "FinalProject.Core": "1.0.0",
+          "FinalProject.Core.Entity": "1.0.0"
+        },
+        "runtime": {
+          "FinalProject.Infrastructure.Static.Data.dll": {}
+        }
+      },
+      "FinalProject.Core/1.0.0": {
+        "dependencies": {
+          "FinalProject.Core.Entity": "1.0.0"
+        },
+        "runtime": {
+          "FinalProject.Core.dll": {}
+        }
+      },
+      "FinalProject.Core.Entity/1.0.0": {
+        "runtime": {
+          "FinalProject.Core.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalProject.Infrastructure.Static.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinalProject.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinalProject.Core.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

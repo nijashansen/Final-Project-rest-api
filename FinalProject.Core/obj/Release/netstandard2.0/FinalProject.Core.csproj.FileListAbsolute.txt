@@ -1,0 +1,12 @@
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\bin\Release\netstandard2.0\FinalProject.Core.deps.json
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\bin\Release\netstandard2.0\FinalProject.Core.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\bin\Release\netstandard2.0\FinalProject.Core.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\bin\Release\netstandard2.0\FinalProject.Core.Entity.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\bin\Release\netstandard2.0\FinalProject.Core.Entity.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.csprojAssemblyReference.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.AssemblyInfoInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.AssemblyInfo.cs
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.csproj.CoreCompileInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.csproj.CopyComplete
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core\obj\Release\netstandard2.0\FinalProject.Core.pdb

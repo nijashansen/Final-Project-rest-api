@@ -1,9 +1,8 @@
 ﻿using FinalProject.Core.DomainService;
 using FinalProject.Core.Entity;
-using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace FinalProject.Core.ApplicationService.Services
 {
@@ -42,6 +41,15 @@ namespace FinalProject.Core.ApplicationService.Services
             return _errorRepo.ReadAll().ToList();
         }
 
+        public List<Error> GetFilteredErrors(Filter filter)
+        {
+            if (filter.CurrentPage < 0 || filter.ItemsPrPage < 0 )
+            {
+                throw new InvalidDataException("Currentpage and itemsprpage cant be 0");
+            }
+            return _errorRepo.ReadAll(filter).ToList();
+        }
+
         public List<Error> GetAllErrorsByDetail(string detail)
         {
             var list = _errorRepo.ReadAll();
@@ -52,15 +60,14 @@ namespace FinalProject.Core.ApplicationService.Services
 
         public Error UpdateError(Error errorUpdate)
         {
-            var error = FindErrorById(errorUpdate.Id);
-            error.ErrorDetail = errorUpdate.ErrorDetail;
-            error.ErrorType = errorUpdate.ErrorType;
-            return error;
+            return _errorRepo.UpdateError(errorUpdate);
         }
 
         public Error DeleteError(int id)
         {
             return _errorRepo.DeleteError(id);
         }
+
+        
     }
 }

@@ -17,8 +17,11 @@ namespace FinalProject.Core.ApplicationService
 
         List<Error> GetAllErrors();
 
+        List<Error> GetFilteredErrors(Filter filter);
+
         Error UpdateError(Error errorUpdate);
 
         Error DeleteError(int id);
+        
     }
 }

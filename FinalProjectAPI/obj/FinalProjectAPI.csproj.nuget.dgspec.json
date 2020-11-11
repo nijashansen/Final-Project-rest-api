@@ -118,14 +118,14 @@
         }
       }
     },
-    "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj": {
+    "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\FinalProject.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj",
-        "projectName": "FinalProject.Infrastructure.Static.Data",
-        "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj",
+        "projectUniqueName": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\FinalProject.Infrastructure.Data.csproj",
+        "projectName": "FinalProject.Infrastructure.Data",
+        "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\FinalProject.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\Nijas Hansen\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\obj\\",
+        "outputPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nijas Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,6 +158,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -206,8 +212,8 @@
               "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\FinalProject.Core.csproj": {
                 "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Core\\FinalProject.Core.csproj"
               },
-              "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj": {
-                "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Static.Data\\FinalProject.Infrastructure.Static.Data.csproj"
+              "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\FinalProject.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProject.Infrastructure.Data\\FinalProject.Infrastructure.Data.csproj"
               }
             }
           }
@@ -220,6 +226,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,9 @@
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\bin\Release\netstandard2.0\FinalProject.Core.Entity.deps.json
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\bin\Release\netstandard2.0\FinalProject.Core.Entity.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\bin\Release\netstandard2.0\FinalProject.Core.Entity.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.csprojAssemblyReference.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.AssemblyInfoInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.AssemblyInfo.cs
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.csproj.CoreCompileInputs.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Core.Entity\obj\Release\netstandard2.0\FinalProject.Core.Entity.pdb

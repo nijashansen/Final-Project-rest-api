@@ -13,11 +13,13 @@ namespace FinalProject.Core.DomainService
 
         Error ReadById(int id);
 
-        IEnumerable<Error> ReadAll();
+        IEnumerable<Error> ReadAll(Filter filter = null);
 
         Error UpdateError(Error errorUpdate);
 
         Error DeleteError(int id);
+
+        int Count();
 
         #endregion
     }

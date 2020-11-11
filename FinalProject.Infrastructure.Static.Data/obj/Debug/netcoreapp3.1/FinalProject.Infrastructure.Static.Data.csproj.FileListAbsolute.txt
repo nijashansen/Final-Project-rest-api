@@ -22,7 +22,6 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Inf
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csprojAssemblyReference.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.AssemblyInfoInputs.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.AssemblyInfo.cs
-D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csproj.CoreCompileInputs.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.csproj.CopyComplete
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProject.Infrastructure.Static.Data\obj\Debug\netcoreapp3.1\FinalProject.Infrastructure.Static.Data.pdb

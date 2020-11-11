@@ -22,9 +22,17 @@ namespace FinalProjectAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Error>> Get()
+        public ActionResult<IEnumerable<Error>> Get([FromQuery] Filter filter)
         {
-            return _errorService.GetAllErrors();
+            try
+            {
+                return Ok(_errorService.GetFilteredErrors(filter)); 
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
         }
 
         [HttpGet("{id}")]
