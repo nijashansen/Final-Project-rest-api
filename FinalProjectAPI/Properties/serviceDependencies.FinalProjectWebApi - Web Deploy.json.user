@@ -1,20 +1,30 @@
 {
-  "dependencies": {
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2020-11-26T08:50:21.9749468Z"
-    }
-  },
+  "dependencies": {},
   "parameters": {
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "9231af62-3fb2-4e5f-85a6-bf5b3e0f9839"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
+    "FinalProjectWebApi.resourceGroupName": {
+      "Name": "FinalProjectWebApi.resourceGroupName",
       "Type": "resourceGroup",
-      "Value": "FinalProject"
+      "Value": "FinalProject2021WebAPI"
+    },
+    "FinalProjectWebApi.resourceGroupLocation": {
+      "Name": "FinalProjectWebApi.resourceGroupLocation",
+      "Type": null,
+      "Value": "germanywestcentral"
+    },
+    "FinalProjectWebApi.subscriptionId": {
+      "Name": "FinalProjectWebApi.subscriptionId",
+      "Type": "subscription",
+      "Value": "ed8f0f84-a848-43bd-a6a4-8f6b32f49817"
+    },
+    "FinalProjectWebApi.resourceName": {
+      "Name": "FinalProjectWebApi.resourceName",
+      "Type": null,
+      "Value": "FinalProjectWebApi"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "ed8f0f84-a848-43bd-a6a4-8f6b32f49817"
     }
   }
 }

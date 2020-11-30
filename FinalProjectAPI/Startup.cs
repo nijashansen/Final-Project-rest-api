@@ -44,8 +44,7 @@ namespace FinalProjectAPI
             } else
             {
                 services.AddDbContext<ErrorContext>(
-                opt => opt.UseSqlServer(Configuration.GetConnectionString("FinalProjectDatabase"))
-                );
+                opt => opt.UseSqlite("Data Source=SqliteDatabase.db"));
             }
 
             services.AddCors(options =>
@@ -89,6 +88,7 @@ namespace FinalProjectAPI
                 using (var scope = app.ApplicationServices.CreateScope())
                 {
                     var ctx = scope.ServiceProvider.GetService<ErrorContext>();
+                    DBSeeder.SeedDB(ctx);
                 }
                 app.UseHsts();
             }

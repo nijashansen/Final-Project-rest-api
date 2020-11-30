@@ -93,3 +93,6 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\FinalProjectAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\FinalProjectAPI.styles.css
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
