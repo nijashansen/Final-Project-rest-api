@@ -8,11 +8,21 @@ namespace FinalProject.Infrastructure.Data
 {
     public class ErrorContext: DbContext
     {
-        public ErrorContext(DbContextOptions<ErrorContext> opt): base(opt)
-        {
-
-        }
-
         public DbSet<Error> Errors { get; set; }
+        public DbSet<Process> Processes { get; set; }
+
+        public ErrorContext(DbContextOptions<ErrorContext> opt): base(opt)
+        {  }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Error>()
+                .HasOne(e => e.Process)
+                .WithMany(p => p.Errors) 
+                .OnDelete(DeleteBehavior.Cascade) ;
+            
+        }
     }
 }

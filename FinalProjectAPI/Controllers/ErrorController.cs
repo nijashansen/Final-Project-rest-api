@@ -78,7 +78,7 @@ namespace FinalProjectAPI.Controllers
             {
                 return StatusCode(404, "did not find error with: " + id);
             }
-            return Ok($"Error with id {id} is Deleted");
+            return Ok(error);
         }
     }
 }

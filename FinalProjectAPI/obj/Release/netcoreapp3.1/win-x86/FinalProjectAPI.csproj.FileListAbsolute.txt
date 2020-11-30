@@ -1,7 +1,5 @@
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\appsettings.Development.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\appsettings.json
-D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Properties\launchSettings.json
-D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Properties\ServiceDependencies\FinalProjectWebApi - Web Deploy\profile.arm.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\FinalProjectAPI.exe
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\FinalProjectAPI.deps.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\FinalProjectAPI.runtimeconfig.json
@@ -409,3 +407,8 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\FinalProject.Infrastructure.Data.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\FinalProject.Infrastructure.Data.pdb
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\win-x86\FinalProjectAPI.csprojAssemblyReference.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\win-x86\scopedcss\bundle\FinalProjectAPI.styles.css
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Release\netcoreapp3.1\win-x86\Newtonsoft.Json.Bson.dll

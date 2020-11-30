@@ -12,21 +12,63 @@ namespace FinalProject.Infrastructure.Data
             ctx.Database.EnsureDeleted();
             ctx.Database.EnsureCreated();
 
-            ctx.Errors.Add(new Error()
+            var process1 = ctx.Processes.Add(new Process()
             {
-                ErrorDetail = "failed to do stuff",
-                ErrorType = "my kind of error"
-            });
-            ctx.Errors.Add(new Error()
+                ProcessName = "Dax Tester"
+            }).Entity;
+
+            var process2 = ctx.Processes.Add(new Process()
             {
-                ErrorDetail = "Something went wrong",
-                ErrorType = "Fejl 40"
-            });
-            ctx.Errors.Add(new Error()
+                ProcessName = "CCB Tester"
+            }).Entity;
+
+            var process3 = ctx.Processes.Add(new Process()
             {
-                ErrorDetail = "i died trying to execute some code",
-                ErrorType = "youre just stupid"
+                ProcessName = "startslut2 Tester"
+            }).Entity;
+
+            var error1 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "dax failed",
+                ErrorType = "System exception",
+                Process = process1
+            }).Entity;
+
+            var error2 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "ccb failed",
+                ErrorType = "System exception",
+                Process = process2
+            }).Entity;
+
+            var error3 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "ccb failed",
+                ErrorType = "System exception",
+                Process = process2
+            }).Entity;
+
+            var error4 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "startslut2 failed",
+                ErrorType = "System exception",
+                Process = process3
+            }).Entity;
+
+            var error5 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "startslut2 failed",
+                ErrorType = "System exception",
+                Process = process3
             });
+
+            var error6 = ctx.Errors.Add(new Error()
+            {
+                ErrorDetail = "startslut2 failed",
+                ErrorType = "System exception",
+                Process = process3
+            });
+
             ctx.SaveChanges();
         }
 

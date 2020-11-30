@@ -1,6 +1,5 @@
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\appsettings.json
-D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\FinalProjectAPI.exe
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\FinalProjectAPI.deps.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\FinalProjectAPI.runtimeconfig.json
@@ -21,7 +20,6 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\FinalProjectAPI.genruntimeconfig.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\FinalProject.Core.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\FinalProject.Core.pdb
-D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\FinalProjectWebApi - Web Deploy\profile.arm.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -93,3 +91,5 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\FinalProjectAPI.csproj.CoreCompileInputs.cache
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\FinalProjectAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\FinalProjectAPI.styles.css

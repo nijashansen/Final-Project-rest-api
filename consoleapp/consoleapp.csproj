@@ -12,7 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\FinalProject.Core.Entity\FinalProject.Core.Entity.csproj" />
     <ProjectReference Include="..\FinalProject.Core\FinalProject.Core.csproj" />
-    <ProjectReference Include="..\FinalProject.Infrastructure.Static.Data\FinalProject.Infrastructure.Static.Data.csproj" />
   </ItemGroup>
 
 </Project>

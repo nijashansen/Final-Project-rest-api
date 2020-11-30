@@ -20,25 +20,26 @@ namespace FinalProject.Infrastructure.Data.Repositories
 
         public Error Create(Error error)
         {
-            var madeError = _ctx.Errors.Add(error).Entity;
+            _ctx.Attach(error).State = EntityState.Added;
             _ctx.SaveChanges();
-            return madeError;
+            return error;
         }
 
         public IEnumerable<Error> ReadAll(Filter filter)
         {
             if (filter.CurrentPage == 0 && filter.ItemsPrPage == 0)
             {
-                return _ctx.Errors;
+                return _ctx.Errors.Include(p => p.Process);
             }
             return _ctx.Errors
+                .Include(p => p.Process.ProcessName)
                 .Skip((filter.CurrentPage - 1) * filter.ItemsPrPage)
                 .Take(filter.ItemsPrPage);
         }
 
         public Error ReadById(int id)
         {
-            return _ctx.Errors.FirstOrDefault(e => e.Id == id);
+            return _ctx.Errors.Include(e => e.Process).FirstOrDefault(e => e.Id == id);
         }
 
         public Error UpdateError(Error errorUpdate)

@@ -20,7 +20,8 @@ namespace FinalProject.Core.ApplicationService.Services
             var error = new Error()
             {
                 ErrorDetail = errorDetail,
-                ErrorType = errorType
+                ErrorType = errorType,
+                Process = null
             };
 
             return error;

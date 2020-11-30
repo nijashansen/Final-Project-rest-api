@@ -22,31 +22,54 @@ namespace FinalProjectAPI
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public IHostEnvironment Environment { get; }
+        public IConfiguration Configuration { get; }
+
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+        public Startup(IConfiguration configuration, IHostEnvironment env)
         {
             Configuration = configuration;
+            Environment = env;
         }
-
-        public IConfiguration Configuration { get; }
-        
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*
-            services.AddDbContext<ErrorContext>(
-                opt => opt.UseInMemoryDatabase("ErrorDatabase")
-                );
-            */
-
-            services.AddDbContext<ErrorContext>(
+            if (Environment.IsDevelopment())
+            {
+                services.AddDbContext<ErrorContext>(
                 opt => opt.UseSqlite("Data Source=SqliteDatabase.db")
                 );
+            } else
+            {
+                services.AddDbContext<ErrorContext>(
+                opt => opt.UseSqlServer(Configuration.GetConnectionString("FinalProjectDatabase"))
+                );
+            }
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200", 
+                        "https://finalprojectwebsite-7c328.web.app",
+                        "https://finalprojectwebsite-7c328.firebaseapp.com").AllowAnyHeader().AllowAnyMethod();
+                });
+            });
 
             services.AddScoped<IErrorRepository, ErrorRepository>();
             services.AddScoped<IErrorService, ErrorService>();
+            services.AddScoped<IProcessService, ProcessService>();
+            services.AddScoped<IProcessRepository, ProcessRepository>();
 
             services.AddControllers();
+
+            services.AddControllersWithViews()
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -63,10 +86,16 @@ namespace FinalProjectAPI
             } 
             else
             {
+                using (var scope = app.ApplicationServices.CreateScope())
+                {
+                    var ctx = scope.ServiceProvider.GetService<ErrorContext>();
+                }
                 app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseCors(MyAllowSpecificOrigins);
+
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 

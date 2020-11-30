@@ -11,5 +11,7 @@ namespace FinalProject.Core.Entity
         public String ErrorDetail { get; set; }
 
         public String ErrorType { get; set; }
+
+        public Process Process { get; set; }
     }
 }
