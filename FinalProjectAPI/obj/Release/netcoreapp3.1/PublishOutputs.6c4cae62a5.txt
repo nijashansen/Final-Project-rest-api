@@ -5,6 +5,7 @@ D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\FinalProjectAPI.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\FinalProjectAPI.runtimeconfig.json
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\FinalProjectAPI.pdb
+D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\GitHub Projecs\Final Project Rest Api\Final-Project-rest-api\FinalProjectAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Data.SqlClient.dll

@@ -19,7 +19,8 @@ namespace FinalProject.Infrastructure.Data.Repositories
 
         public Process CreateProcess(Process process)
         {
-            var madeProcess = _ctx.Processes.Add(process).Entity;
+            var madeProcess = new Process { ProcessName = process.ProcessName, Errors = new List<Error>() };
+            _ctx.Processes.Add(madeProcess);
             _ctx.SaveChanges();
             return madeProcess;
         }

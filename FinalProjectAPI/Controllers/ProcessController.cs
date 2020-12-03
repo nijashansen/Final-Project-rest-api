@@ -1,5 +1,6 @@
 ﻿using FinalProject.Core.ApplicationService.Services;
 using FinalProject.Core.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace FinalProjectAPI.Controllers
             _processService = processService;
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult<IEnumerable<Process>> Get([FromQuery] Filter filter)
         {
@@ -33,6 +35,7 @@ namespace FinalProjectAPI.Controllers
 
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public ActionResult<Process> Get(int id)
         {
@@ -43,6 +46,7 @@ namespace FinalProjectAPI.Controllers
             return _processService.ReadByIdIncludeErrors(id);
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         public ActionResult<Process> Post([FromBody] Process process)
         {
@@ -58,6 +62,7 @@ namespace FinalProjectAPI.Controllers
             return _processService.CreateProcess(process);
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpPut("{id}")]
         public ActionResult<Process> Put(int id, [FromBody] Process process)
         {
@@ -69,6 +74,7 @@ namespace FinalProjectAPI.Controllers
             return Ok(_processService.UpdateProcess(process));
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpDelete("{id}")]
         public ActionResult<Error> Delete(int id)
         {

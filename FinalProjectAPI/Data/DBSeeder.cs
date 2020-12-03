@@ -1,13 +1,19 @@
 ﻿using FinalProject.Core.Entity;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using FinalProjectAPI.Data;
+using FinalProjectAPI.Helpers;
 
 namespace FinalProject.Infrastructure.Data
 {
-    public class DBSeeder
+    public class DBSeeder: IDBSeeder
     {
-        public static void SeedDB(ErrorContext ctx)
+        private IAuthenticationHelper authenticationHelper;
+
+        public DBSeeder(IAuthenticationHelper authHelper)
+        {
+            authenticationHelper = authHelper;
+        }
+
+        public void SeedDB(ErrorContext ctx)
         {
             ctx.Database.EnsureDeleted();
             ctx.Database.EnsureCreated();
@@ -67,6 +73,27 @@ namespace FinalProject.Infrastructure.Data
                 ErrorDetail = "startslut2 failed",
                 ErrorType = "System exception",
                 Process = process3
+            });
+
+            string password = "1234";
+            byte[] passwordHashJoe, passwordSaltJoe, passwordHashAnn, passwordSaltAnn;
+            authenticationHelper.CreatePasswordHash(password, out passwordHashJoe, out passwordSaltJoe);
+            authenticationHelper.CreatePasswordHash(password, out passwordHashAnn, out passwordSaltAnn);
+
+            var adminAnn = ctx.Users.Add(new User()
+            {
+                IsAdmin = true,
+                PasswordHash = passwordHashAnn,
+                PasswordSalt = passwordSaltAnn,
+                Username = "AdminAnn",
+            });
+
+            var userJoe = ctx.Users.Add(new User()
+            {
+                IsAdmin = false,
+                PasswordHash = passwordHashJoe,
+                PasswordSalt = passwordSaltJoe,
+                Username = "userJoe",
             });
 
             ctx.SaveChanges();

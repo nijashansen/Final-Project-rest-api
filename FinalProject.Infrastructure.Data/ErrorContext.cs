@@ -10,6 +10,7 @@ namespace FinalProject.Infrastructure.Data
     {
         public DbSet<Error> Errors { get; set; }
         public DbSet<Process> Processes { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public ErrorContext(DbContextOptions<ErrorContext> opt): base(opt)
         {  }

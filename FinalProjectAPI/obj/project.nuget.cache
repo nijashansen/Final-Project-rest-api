@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TjzYEXM0CQ/r+buIWUM/7J3R6M2/FkE37lWotfelrOEApJqlB23Ey6TGG3odnmUFOzz6c0unGrNMzegyxmWrfg==",
+  "dgSpecHash": "bcDIa34lxPNGQmDtCG6yVRqwiYU9QcQX02qzVa4RS1qItMpyDAO1zmZc8W52xPVPLh2hd588AXM79ucFJmb2Cg==",
   "success": true,
   "projectFilePath": "D:\\GitHub Projecs\\Final Project Rest Api\\Final-Project-rest-api\\FinalProjectAPI\\FinalProjectAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.10\\microsoft.aspnetcore.jsonpatch.3.1.10.nupkg.sha512",
     "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.10\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.10.nupkg.sha512",
     "C:\\Users\\Nijas Hansen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

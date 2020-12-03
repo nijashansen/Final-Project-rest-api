@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FinalProject.Core.ApplicationService;
 using FinalProject.Core.ApplicationService.Services;
 using FinalProject.Core.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -21,6 +22,7 @@ namespace FinalProjectAPI.Controllers
             _errorService = errorService;
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult<IEnumerable<Error>> Get([FromQuery] Filter filter)
         {
@@ -35,6 +37,7 @@ namespace FinalProjectAPI.Controllers
             
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public ActionResult<Error> Get(int id)
         {
@@ -45,6 +48,7 @@ namespace FinalProjectAPI.Controllers
             return _errorService.FindErrorById(id);
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         public ActionResult<Error> Post([FromBody] Error error)
         {
@@ -59,6 +63,7 @@ namespace FinalProjectAPI.Controllers
             return _errorService.CreateError(error);
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpPut("{id}")]
         public ActionResult<Error> Put(int id, [FromBody] Error error)
         {
@@ -70,6 +75,7 @@ namespace FinalProjectAPI.Controllers
             return Ok(_errorService.UpdateError(error));
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpDelete("{id}")]
         public ActionResult<Error> Delete(int id)
         {
