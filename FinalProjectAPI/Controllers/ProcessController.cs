@@ -32,7 +32,6 @@ namespace FinalProjectAPI.Controllers
             {
                 return BadRequest(e.Message);
             }
-
         }
 
         [Authorize]
@@ -76,7 +75,7 @@ namespace FinalProjectAPI.Controllers
 
         [Authorize(Roles = "Administrator")]
         [HttpDelete("{id}")]
-        public ActionResult<Error> Delete(int id)
+        public ActionResult<Process> Delete(int id)
         {
             var process = _processService.DeleteProcess(id);
             if (process == null)

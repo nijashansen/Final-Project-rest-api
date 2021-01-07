@@ -25,17 +25,14 @@ namespace FinalProjectAPI.Controllers
         public IActionResult Login([FromBody] LoginInputModel model)
         {
             var user = _userRepository.GetAllUsers().FirstOrDefault(u => u.Username == model.Username);
-
             if (user == null)
             {
                 return Unauthorized("user was not found.");
             }
-
             if (!_authenticationHelper.VerifyPasswordHash(model.Password, user.PasswordHash, user.PasswordSalt))
             {
                 return Unauthorized("it is not the right password");
             }
-
             return Ok(new
             {
                 username = user.Username,

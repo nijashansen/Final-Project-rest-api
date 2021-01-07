@@ -19,9 +19,9 @@ namespace FinalProject.Infrastructure.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Error>()
-                .HasOne(e => e.Process)
-                .WithMany(p => p.Errors) 
+            modelBuilder.Entity<Process>()
+                .HasMany(e => e.Errors)
+                .WithOne(p => p.Process) 
                 .OnDelete(DeleteBehavior.Cascade) ;
             
         }

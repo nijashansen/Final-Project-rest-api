@@ -73,9 +73,9 @@ namespace FinalProject.Infrastructure.Data.Repositories
 
         public Process DeleteProcess(int id)
         {
-            var error = _ctx.Remove<Process>(new Process { Id = id });
+            var process = _ctx.Remove<Process>(new Process { Id = id });
             _ctx.SaveChanges();
-            return error.Entity;
+            return process.Entity;
         }
 
         public int Count()

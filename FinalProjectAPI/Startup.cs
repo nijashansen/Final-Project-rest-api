@@ -45,9 +45,7 @@ namespace FinalProjectAPI
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateAudience = false,
-                    //ValidAudience = "TodoApiClient",
                     ValidateIssuer = false,
-                    //ValidIssuer = "TodoApi",
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(secretBytes),
                     ValidateLifetime = true, //validate the expiration and not before values in the token
@@ -69,7 +67,7 @@ namespace FinalProjectAPI
                 services.AddDbContext<ErrorContext>(opt =>
                          //opt.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
                          //use sql for now, problems with Azure and the azure subscription
-                         opt.UseSqlite("Data Source=SqliteDatabase.db"));
+                         opt.UseSqlServer(Configuration.GetConnectionString("defaultconnectionstring")));
                 // Register SQL Server database initializer for dependency injection.
                 services.AddTransient<IDBSeeder, DBSeeder>();
             }

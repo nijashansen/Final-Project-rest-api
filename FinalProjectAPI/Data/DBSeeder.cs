@@ -20,17 +20,17 @@ namespace FinalProject.Infrastructure.Data
 
             var process1 = ctx.Processes.Add(new Process()
             {
-                ProcessName = "Dax Tester"
+                ProcessName = "Startslut2"
             }).Entity;
 
             var process2 = ctx.Processes.Add(new Process()
             {
-                ProcessName = "CCB Tester"
+                ProcessName = "CCB live objekt"
             }).Entity;
 
             var process3 = ctx.Processes.Add(new Process()
             {
-                ProcessName = "startslut2 Tester"
+                ProcessName = "Lukkeordre for sortseere"
             }).Entity;
 
             var error1 = ctx.Errors.Add(new Error()
@@ -56,44 +56,44 @@ namespace FinalProject.Infrastructure.Data
 
             var error4 = ctx.Errors.Add(new Error()
             {
-                ErrorDetail = "startslut2 failed",
-                ErrorType = "System exception",
+                ErrorDetail = "information not valid",
+                ErrorType = "Buissnes exception",
                 Process = process3
             }).Entity;
 
             var error5 = ctx.Errors.Add(new Error()
             {
-                ErrorDetail = "startslut2 failed",
+                ErrorDetail = "process failed",
                 ErrorType = "System exception",
                 Process = process3
             });
 
             var error6 = ctx.Errors.Add(new Error()
             {
-                ErrorDetail = "startslut2 failed",
+                ErrorDetail = "CCB failed",
                 ErrorType = "System exception",
                 Process = process3
             });
 
             string password = "1234";
-            byte[] passwordHashJoe, passwordSaltJoe, passwordHashAnn, passwordSaltAnn;
-            authenticationHelper.CreatePasswordHash(password, out passwordHashJoe, out passwordSaltJoe);
-            authenticationHelper.CreatePasswordHash(password, out passwordHashAnn, out passwordSaltAnn);
+            byte[] passwordHashUser, passwordSaltUser, passwordHashAdmin, passwordSaltAdmin;
+            authenticationHelper.CreatePasswordHash(password, out passwordHashUser, out passwordSaltUser);
+            authenticationHelper.CreatePasswordHash(password, out passwordHashAdmin, out passwordSaltAdmin);
 
             var adminAnn = ctx.Users.Add(new User()
             {
                 IsAdmin = true,
-                PasswordHash = passwordHashAnn,
-                PasswordSalt = passwordSaltAnn,
-                Username = "AdminAnn",
+                PasswordHash = passwordHashAdmin,
+                PasswordSalt = passwordSaltAdmin,
+                Username = "Admin",
             });
 
             var userJoe = ctx.Users.Add(new User()
             {
                 IsAdmin = false,
-                PasswordHash = passwordHashJoe,
-                PasswordSalt = passwordSaltJoe,
-                Username = "userJoe",
+                PasswordHash = passwordHashUser,
+                PasswordSalt = passwordSaltUser,
+                Username = "User",
             });
 
             ctx.SaveChanges();

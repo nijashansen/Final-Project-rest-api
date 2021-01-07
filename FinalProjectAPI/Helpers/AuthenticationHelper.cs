@@ -44,10 +44,8 @@ namespace FinalProjectAPI.Helpers
             {
                 new Claim(ClaimTypes.Name, user.Username)
             };
-
             if (user.IsAdmin)
                 claims.Add(new Claim(ClaimTypes.Role, "Administrator"));
-
             var token = new JwtSecurityToken(
                 new JwtHeader(new SigningCredentials(
                     new SymmetricSecurityKey(secretBytes),
@@ -55,9 +53,8 @@ namespace FinalProjectAPI.Helpers
                 new JwtPayload(null, // issuer - not needed (ValidateIssuer = false)
                                null, // audience - not needed (ValidateAudience = false)
                                claims.ToArray(),
-                               DateTime.Now,               // notBefore
+                               DateTime.Now,  // notBefore
                                DateTime.Now.AddDays(1)));  // expires
-
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
