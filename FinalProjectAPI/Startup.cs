@@ -65,11 +65,7 @@ namespace FinalProjectAPI
             {
                 // Azure SQL database:
                 services.AddDbContext<ErrorContext>(opt =>
-                         //opt.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
-                         //use sql for now, problems with Azure and the azure subscription
-                         opt.UseSqlServer(Configuration.GetConnectionString("defaultconnectionstring")));
-                // Register SQL Server database initializer for dependency injection.
-                services.AddTransient<IDBSeeder, DBSeeder>();
+                         opt.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
             }
 
             // Register repositories for dependency injection
